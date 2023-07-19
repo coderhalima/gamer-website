@@ -49,6 +49,22 @@
     .card-container{
         flex-direction: column;
     }
+    .play-games-container{
+        flex-direction: column-reverse;
+    }
+    .play-games-title h2{
+        font-size: 20px;
+
+        
+        }
+    .play-games-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .play-games-img {
+        min-width: 100%;
+        
+    }
 
 
 }
