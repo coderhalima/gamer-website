@@ -28,7 +28,6 @@
        width: 120%;
         }
       
-
     .banner-container{
     flex-direction: column-reverse;
     display: flex;
@@ -46,6 +45,9 @@
     }
     .banner-img{
         width: 100%;
+    }
+    .card-container{
+        flex-direction: column;
     }
 
 
