@@ -289,3 +289,29 @@ line-height: 30px;
     width: 50%;
     margin: 0 auto;
 }
+
+/* Game types feature */
+.games-container{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+  margin: 80px auto;
+}
+.games-item{
+    display: flex;
+    justify-content: center;
+}
+.games-item img{
+   width: 30px;
+   height: auto;
+   
+}
+.games-item:hover{
+    border: 2px solid #F948B2;
+    color:#F948B2 ;
+    border-radius: 48px;
+    
+
+   
+}
