@@ -91,7 +91,7 @@ span.youtube {
 /* Banner Start */
 .banner-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .banner-content{
@@ -99,14 +99,14 @@ span.youtube {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top-center;
-    width: 50%;
+    width: 60%;
     padding: 100px 0;
 }
 .banner-img{
-    width: 50%;
+    width: 40%;
 }
 .banner-img img {
-    width: 500px;
+    width: 400px;
 }
 
 .banner-content h1 {

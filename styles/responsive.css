@@ -27,19 +27,22 @@
   .button-item {
        width: 120%;
         }
+      
 
     .banner-container{
     flex-direction: column-reverse;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
     }
     .banner-content{
-        width: 100%;
+        min-width: 100%;
+        padding: 0px;
      
      
     }
     .banner-img img{
-        width: 100px;
+        max-width: 200px;
     }
     .banner-img{
         width: 100%;
