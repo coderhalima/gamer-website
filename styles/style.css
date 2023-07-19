@@ -294,8 +294,8 @@ line-height: 30px;
 .games-container{
     max-width: 1400px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 10px;
   margin: 80px auto;
 }
 .games-item{
@@ -303,7 +303,7 @@ line-height: 30px;
     justify-content: center;
 }
 .games-item img{
-   width: 30px;
+   width: 50px;
    height: auto;
    
 }
