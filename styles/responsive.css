@@ -28,5 +28,22 @@
        width: 120%;
         }
 
+    .banner-container{
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    }
+    .banner-content{
+        width: 100%;
+     
+     
+    }
+    .banner-img img{
+        width: 100px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
 
 }

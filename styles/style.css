@@ -1,16 +1,35 @@
+/* Shared Style */
 * {
     box-sizing: border-box;
-    
+
 }
+
 body {
     font-family: 'Work Sans', sans-serif;
-  
-  }
+
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 20px 40px;
+    border-radius: 48px;
+    color: #FFF;
+    background-color: #FF42A5;
+    border: 0;
+}
+.btn-sky{
+background: #4EC5F7;
+}
+
 nav {
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-   
+
 }
+
 
 .nav-container {
     display: flex;
@@ -37,7 +56,8 @@ nav {
     font-weight: 700;
     color: #0B0223;
 }
-.logo-txt{
+
+.logo-txt {
     color: #FF42A5;
 }
 
@@ -58,11 +78,40 @@ nav {
 }
 
 .button-item {
-border-radius: 8px;
-background-color: rgba(11, 2, 35, 0.10);
-padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
 }
-span.youtube{
- color: red;
- margin-right: 10px;
+
+span.youtube {
+    color: red;
+    margin-right: 10px;
+}
+
+/* Banner Start */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top-center;
+    width: 50%;
+    padding: 100px 0;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img {
+    width: 500px;
+}
+
+.banner-content h1 {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
